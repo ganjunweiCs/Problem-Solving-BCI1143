@@ -1,10 +1,6 @@
 #include <stdio.h>
 
-float room();
-float fnb();
-float time();
-float total(float room_cost, float fnb_cost, float time_cost);
-float membership(float total_cost);
+float room(), fnb(), time(), total(float room_cost, float fnb_cost, float time_cost), membership(float total_cost);
 const char *memberStatus(float total_cost, float bill);
 void print(float room_cost, float fnb_cost, float time_cost, float total_cost, float bill, const char *member);
 
