@@ -82,7 +82,7 @@ float fnb()
             break;
         }
 
-        printf("Please insert the type of beverage desired.\n Burger(b)= RM 7.00\n Crispy fries(c)=RM 5.00\n Fried Chicken(f)= RM9.00\n No food(n)\n");
+        printf("Please insert the type of food desired.\n Burger(b)= RM 7.00\n Crispy fries(c)=RM 5.00\n Fried Chicken(f)= RM9.00\n No food(n)\n");
         scanf(" %c", &food_type);
 
         switch (food_type)
